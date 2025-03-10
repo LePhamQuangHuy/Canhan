@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio|Lê Phạm Quang Huy</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            background: url("pexels-hardeep-31075287.jpg") no-repeat center center/cover;
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            max-width: 500px;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border: 3px solid white;
+            animation: borderGlow 3s infinite alternate;
+        }
+        @keyframes borderGlow {
+            0% { box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); }
+            100% { box-shadow: 0 0 20px rgba(255, 255, 255, 1); }
+        }
+        img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid white;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+            transition: 0.3s ease-in-out;
+        }
+        img:hover {
+            box-shadow: 0 0 25px rgba(255, 255, 255, 1);
+            transform: scale(1.05);
+        }
+        h1 {
+            font-size: 36px;
+            font-weight: 700;
+            margin-top: 15px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+        }
+        p {
+            font-size: 18px;
+            font-weight: 400;
+            opacity: 0.9;
+            line-height: 1.6;
+        }
+        .social-links a {
+            display: inline-block;
+            margin: 10px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: white;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 12px 24px;
+            border-radius: 5px;
+            transition: 0.3s;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        .social-links a:hover {
+            background: rgba(255, 255, 255, 0.4);
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="z6394194429075_2479e136985faf4f06a1c4d031d350bd.jpg" alt="v">
+        <h1>Lê Phạm Quang Huy</h1>
+        <p>Chào mừng bạn đến với trang cá nhân của tôi! Tôi là một người đam mê công nghệ, sáng tạo và không ngừng học hỏi để phát triển bản thân.</p>
+        <p> Hãy kết nối cùng tôi để cùng chia sẻ và khám phá những điều thú vị!</p>
+         <div class="social-links">
+            <a href="https://www.facebook.com/phamquanghuy.le.752" target="_blank">Facebook</a>
+            <a href="https://www.tiktok.com/@lphmquanghuy" target="_blank">Tiktok</a>
+            <a href="https://www.instagram.com/huyy.137/profilecard/" target="_blank">Instagram</a>
+            <a href="https://t.me/QuangHuy137" target="_blank">Telegram</a>
+        </div>
+    </div>
+</body>
+</html>
